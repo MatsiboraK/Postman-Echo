@@ -6,7 +6,7 @@ import static org.hamcrest.Matchers.*;
 public class PostmanEchoTest {
 
     @Test
-    void shouldReturnBody() {
+    void shouldReturnBodyPostman() {
 
         given()
                 .baseUri("https://postman-echo.com")
